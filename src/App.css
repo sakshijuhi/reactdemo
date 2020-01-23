@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+.FormField__Header{
+  color: #02075d !important;
+text-align: center;
+
+}
+
+.NavItem_Custom {
+  margin-right: 6px !important;
+}
+
+.Nav_Custom{
+  background-color: #1c1705;
+}
+
+
+
+.Nav_Button{
+  border-radius: 8px;
+  border: 1px solid #EED202;
+  color: #EED202;
+}
+
+
+.Nav_Link:hover {
+  background-position: right center;
+  color: #EED202;
+}
+
+
+
+
+.Nav_Button:hover {
+  color: black;
+  border-radius: 6px;
+  background-image: linear-gradient(#ff9100, yellow);
+}
+
+.Nav_Button--Active {
+  color: black;
+  border-radius: 6px;
+  background-image: linear-gradient(#ff9100, yellow);
+}
+
+
+.rounded {
+  border-radius: 1.25rem!important;
+}
+
+.Nav_Link_Pipe:after {
+  content: "|";
+  position: absolute;
+  margin-left: 20px;
+}
+
+.Nav_PageSwitcher__Item {
+  color: #9DA6B1;
+  padding: 3px 25px;
+  cursor: pointer;
+  font-size: .9em;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 13px;
+  font-size: 17px;
+}
+
+.Nav_PageSwitcher__Item--Active {
+  color: white;
+}
+
+.FormField__Label {
+  display: block;
+  text-transform: uppercase;
+  font-size: .9em;
+  font-weight: bold;
+  color:#02075d;
+  margin-top: 20px;
+}
+
+.SignUp_App__Form{
+  overflow: auto;
+  position: relative;
+  max-height: 963px;
+  color: black;
+  border: 1px solid #ced4da;
+  margin: auto;
+  margin-top: 1%;
+}
+.FormField__Button {
+  font-size: 1.25em;
+    font-weight: 500;
+    width: 100%;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 6px;
+    background-image: linear-gradient(#ff9100, yellow);
+}
+
+
