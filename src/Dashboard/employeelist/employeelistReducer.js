@@ -1,6 +1,6 @@
 import * as actionTypes from './employeelistActionTypes';
 
-const employeelistReducer = (state = [], action) => {
+const employeelistReducer = (state = {}, action) => {
   switch (action.type) {
     case actionTypes.EMPLOYEE_LIST_SUCCESS:
       return { ...state, employeeListInfo: action.payload };
